@@ -1,0 +1,13 @@
+{
+  "versionCode": 27,
+  "versionName": "v0.0.4.9",
+  "downloadUrl": "https://gitee.com/w1sonz/bearspeed/releases/download/v0.0.4.9/app-debug.apk",
+  "sha256": "095746D3154BF440CBF48866FAED937F323DDF3F8C61C9026D52F1DEC144DB53",
+  "severity": "recommended",
+  "forceAfterDays": 7,
+  "changelog": {
+    "zh-CN": "v0.0.4.9：天气详情新增未来24小时降雨预报；新增 MotoGP 风格的轮胎选择 / 车辆设定 / 驾驶方式策略卡（已折叠到"高级提示"下，不影响查阅天气详情）；历史轨迹回放至地图 TAB 后，新增播放控件，支持 1x / 2x / 4x / 8x 倍速、拖动条定位，星标气泡显示当前速度与倾角。\n修复：v0.0.4.8 客户端因 versionCode 已预先取到与新版相同，造成“已是最新”提示；现改为同时按 versionName 语义化比较。",
+    "zh-TW": "v0.0.4.9：天氣詳情新增未來24小時降雨預報；新增 MotoGP 風格的輪胎選擇 / 車輛設定 / 駕駛方式策略卡（已摺疊到"高級提示"下，不影響查閱天氣詳情）；歷史軌跡回放至地圖 TAB 後，新增播放控件，支援 1x / 2x / 4x / 8x 倍速、拖動條定位，星標氣泡顯示當前速度與傾角。\n修復：v0.0.4.8 用戶端因 versionCode 已預先取到與新版相同，造成「已是最新」提示；現改為同時按 versionName 語義化比較。",
+    "en": "v0.0.4.9: Weather details now show the next 24h rain forecast. Added a MotoGP-style tire / bike setup / riding style strategy card (collapsed under 'Advanced tips' so it doesn't interfere with reading the weather details first). When a saved track is replayed on the Map TAB, playback controls are now available: 1x / 2x / 4x / 8x speed, drag bar scrubbing, and the star marker bubble shows the current speed and lean angle.\nFix: v0.0.4.8 clients were reporting 'already up to date' because the previously derived versionCode already matched the new release. The update check now additionally compares the semantic versionName."
+  }
+}
